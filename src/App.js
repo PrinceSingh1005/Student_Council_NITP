@@ -1,14 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import Navi from './Component/Navbar';
-import ValidForm from './Form/ValidForm'
-import FormValidate from './Form/FormValidate';
+import "./App.css";
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Work from "./Components/Work";
+import Testimonial from "./Components/Testimonial";
+
+
+
 function App() {
   return (
     <div className="App">
-      <Navi />
-      <ValidForm />
-      <FormValidate />
+      <Home /> 
+      <About />
+      <Work />
+      <Testimonial />
+
+      
     </div>
   );
 }
