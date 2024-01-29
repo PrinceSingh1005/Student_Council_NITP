@@ -70,8 +70,7 @@ button:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .textarea{
-  size: 100px;
-  text-align: center;
+  size: 500px;
 }
 
 /* Footer.css */
@@ -79,13 +78,55 @@ button:hover {
   background-color: #333;
   color: white;
   padding: 20px;
-  text-align: center;
+  text-align: start;
 }
 
 .social-media-links a {
   color: white;
   margin: 0 10px;
   font-size: 24px;
+  text-decoration: none;
+}
+
+.social-media-links a:hover {
+  color: #55acee; /* Twitter blue */
+}
+
+.footer-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-navigation li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-navigation a:hover {
+  color: #55acee; /* Twitter blue */
+}
+
+
+/* Footer.css */
+.footer-container {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  padding-left:100px;
+  text-align: start;
+}
+
+.social-media-links a {
+  color: rgb(255, 255, 255);
+  margin: 0 10px;
+  font-size: 24px;
+  font-size: 30px;
   text-decoration: none;
 }
 

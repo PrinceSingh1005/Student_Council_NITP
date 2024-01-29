@@ -6,7 +6,7 @@ const BackButton = () => {
   const history = useHistory();
 
   const handleGoBack = () => {
-    history.goBack();
+  window.location.href= '';
   };
 
   return (
