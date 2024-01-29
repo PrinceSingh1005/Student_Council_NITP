@@ -1,16 +1,155 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ComplaintForm.css */
+
+body{
+  background-color: grey;
+}
+.complaint-form-container {
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2 {
+  text-align: center;
+  color: #333;
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+form {
+  display: flex;
+  flex-direction: column;
+  width:600;
+  align-items:center;
+  text-align: center;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #090707;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: #45a049;
+}
+
+button {
+  background-color: #4caf50;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.heading{
+  align-items: center;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.boxed-form-container {
+  max-width: 400px;
+  background-color: #b3adad;
+  margin: 20px auto;
+  padding: 50px;
+  border: 1px solid #f8f5f5;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.textarea{
+  size: 500px;
+}
+
+/* Footer.css */
+.footer-container {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: start;
+}
+
+.social-media-links a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-media-links a:hover {
+  color: #55acee; /* Twitter blue */
+}
+
+.footer-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-navigation li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-navigation a:hover {
+  color: #55acee; /* Twitter blue */
+}
+
+
+/* Footer.css */
+.footer-container {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  padding-left:100px;
+  text-align: start;
+}
+
+.social-media-links a {
+  color: rgb(255, 255, 255);
+  margin: 0 10px;
+  font-size: 24px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.social-media-links a:hover {
+  color: #55acee; /* Twitter blue */
+}
+
+.footer-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-navigation li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-navigation a:hover {
+  color: #55acee; /* Twitter blue */
+}
